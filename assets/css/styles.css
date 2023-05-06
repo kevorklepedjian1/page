@@ -518,13 +518,7 @@ text-align: center;
   display: inline-flex;
   color: var(--white-color);
 }
-.saz {
-    display: flex!important;
-    align-items: center !imporatnt;
-    justify-content: space-between !important;
-    flex-direction: row !important;
-    width: 90% !important;
-}
+
 
 /*=============== BUTTON ===============*/
 .button{
@@ -764,6 +758,15 @@ text-align: center;
 }
  
 }
+@media screen and (max-width:920px) {
+  .saz{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+   width: unset !important;
+  }
+}
 @media screen and (min-width:767px)  {
   
   .saz img {
@@ -794,6 +797,15 @@ text-align: center;
   }
 
  
+}
+@media screen and (min-width:1024px)  {
+  .saz{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+  }
 }
 @media screen and (max-width:1090px)  {
 
