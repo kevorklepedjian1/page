@@ -518,7 +518,13 @@ text-align: center;
   display: inline-flex;
   color: var(--white-color);
 }
-
+.saz {
+    display: flex!important;
+    align-items: center !imporatnt;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+    width: 90% !important;
+}
 
 /*=============== BUTTON ===============*/
 .button{
